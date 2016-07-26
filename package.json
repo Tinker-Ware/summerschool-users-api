@@ -1,0 +1,22 @@
+{
+  "name": "summerschool-frontend-users-api",
+  "version": "1.0.0",
+  "description": "API documentation to run users server",
+  "scripts": {
+    "main-store": "git checkout -f && git clean -f && git checkout master",
+    "api-server": "node_modules/drakov/drakov -f api/users.apib -p 3100 --autoOptions --header authorization --header provider-token --public"
+  },
+  "author": "TinkerWare",
+  "license": "MIT",
+  "dependencies": {
+    "drakov": "1.x"
+  },
+  "keywords": [
+    "api-blue-print",
+    "drakov"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tinker-Ware/summerschool-frontend-users-api"
+  }
+}
