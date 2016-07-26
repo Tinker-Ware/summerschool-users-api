@@ -1,5 +1,5 @@
 {
-  "name": "summerschool-frontend-users-api",
+  "name": "summerschool-users-api",
   "version": "1.0.0",
   "description": "API documentation to run users server",
   "scripts": {
@@ -17,6 +17,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tinker-Ware/summerschool-frontend-users-api"
+    "url": "https://github.com/Tinker-Ware/summerschool-users-api"
   }
 }
